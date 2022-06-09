@@ -38,7 +38,7 @@ invisible(dev.off())
 ```
 
 
-```{r, fig.width = 36.2, fig.height = 10.96}
+```{r, fig.width = 36.39, fig.height = 11.4}
 plot(x)
 ```
 
@@ -48,15 +48,15 @@ https://pkgndep.github.io/prefix_c/cola_dependency_report.html.
 
 
 The dependency heaviness analysis shows the number of total dependency
-for *cola* is 248, which means, if the full functionality of *cola* is required
-by a user, he or she needs to install all 248 upstream packages. *cola*
+for *cola* is 252, which means, if the full functionality of *cola* is required
+by a user, he or she needs to install all 252 upstream packages. *cola*
 performs consensus partitioning as its core analysis which is expected to be
 very frequently used by users, while other downstream analysis such as
 functional enrichment analysis are less used. On the other hand, dependency packages
 for downstream analysis contribute very high heaviness to *cola*. For example,
 package *clusterPrifiler* which is for functional enrichment analysis
 contribute a heaviness of 91 and package *ReactomePA* which provides Reactome
-pathways for enrichment analysis contribute a heaviness of 96. Since we are
+pathways for enrichment analysis contribute a heaviness of 94. Since we are
 also the developers of package *cola*, we arranged the parents of *cola* in a
 way that only package related to the core analysis were put as strong parents,
 while those for secondary analysis were put as weak parents. This makes the

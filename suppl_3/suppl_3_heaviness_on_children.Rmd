@@ -152,7 +152,7 @@ ggplot(df[l_low, ], aes(n_children, adjusted_heaviness_on_children, color = log1
 ### Table
 
 The highlighted packages in previous plots are listed in the following table. Packages are ordered by adjusted heaviness values. Clicking on
-the package names will lead to the HTML report of its dependency heaviness analysis. The complete table for all packages is avaiable at https://docs.google.com/spreadsheets/d/1R4ICniRDBuaJlPL6YUN0IzAjmnp73tllPnJeBeLUB98/edit?usp=sharing.
+the package names will lead to the HTML report of its dependency heaviness analysis. The complete table for all packages is avaiable at https://docs.google.com/spreadsheets/d/1lj2hnylR-TPaRKKI2qjA19uwwsm6-Tm8pRNpbmHv5p4/edit?usp=sharing.
 
 <style>
 .heaviness-high {
